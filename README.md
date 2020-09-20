@@ -7,6 +7,6 @@
 - React hooks for state management and components.
 - react-chartjs-2 for line graph.
 
-# Technologies Used
+# Installation
 - npm install
 - npm start
