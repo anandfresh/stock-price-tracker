@@ -1,0 +1,32 @@
+.Row {
+     color: var(--primary-light-text);
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     &:hover {
+         background-color: rgba(0, 0, 0, 0.5);
+     }
+     cursor: pointer;
+    td {
+        text-align: center;
+        border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+        padding: 0.7em;
+    }
+}
+
+.Higher {
+    color: green;
+};
+
+.Lower {
+    color: #CF6679;
+};
+
+.StockName {
+    font-weight: 500;
+    font-size: 1.05em;
+    color: #03DAC5;
+};
+
+.UpdateTime {
+    font-size: 0.85em;
+    color: #aaaaaa;
+}

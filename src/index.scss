@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-dark-background: #121212;
+  --primary-light-background: rgba(255, 255, 255, 0.87);
+  --primary-light-text: rgba(255, 255, 255, 0.87);
+  --primary-dark-text: #121212;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  background-color: var(--primary-dark-background);
+  color: var(--primary-text-color);
+}
+
+

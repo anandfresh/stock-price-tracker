@@ -1,0 +1,28 @@
+.Main {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+        justify-self: center;
+        max-width: fit-content;
+        padding: 0.5em;
+        font-size: 1.2em;
+        outline: none;
+        transition: all 0.2s ease-in-out;
+        border: 1px solid #121212;
+        border-radius: 5px;
+        &:hover {
+            background-color: #121212;
+            color: white;
+            border: 1px solid white;
+        }
+        cursor: pointer;
+    }
+}
+
+.Chart {
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+}

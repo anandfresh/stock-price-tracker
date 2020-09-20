@@ -1,0 +1,14 @@
+.Table {
+    width: 95%;
+    max-width: 800px;
+    margin: 2em auto;
+    border-collapse: collapse;
+    thead {
+        th {
+            border-bottom: 1px solid  rgba(255, 255, 255, 0.5);
+            color: #bb86FC;
+            font-size: 1.1em;
+            padding: 0.5em;
+        }
+    }
+}
